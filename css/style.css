@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(5, 7, 12, 0.75)), rgba(5, 7, 12, 0.75);
+    background-image: url(/img/degrade.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    
+
+}
+.card-conteiner{
+    width: 750px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+.img-conteiner{
+    width: 40%;
+
+
+}
+.img-conteiner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.text-conteiner{
+    width: 60%;
+ 
+}
+
+h2{
+    font-style: italic;
+    color: white;
+    font-size: 30px;
+    font-weight: bold ;
+    text-align: center;
+    margin-top: 50px;
+}
+.title{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.biografhy{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.icon{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+a{
+    font-size: 25px;
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: 1s ease-in;
+
+}
+.card-container:hover {
+    transform: TranslateY(-10px);
+}
